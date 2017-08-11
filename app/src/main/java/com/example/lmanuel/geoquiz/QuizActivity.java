@@ -150,7 +150,7 @@ public class QuizActivity extends AppCompatActivity {
 
     private void updateQuestion()
     {
-        Log.d(TAG, "Actualizando el texto para la pregunta #" + mCurrentIndex, new Exception());
+        Log.d(TAG, "Actualizando el texto  para la pregunta #" + mCurrentIndex, new Exception());
         int question = mQuestionsBank[mCurrentIndex].getTextResId();
         mQuestionTextView.setText(question);
     }
